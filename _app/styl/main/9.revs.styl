@@ -1,0 +1,25 @@
+.carousel-control
+	height 40px
+	width 30px
+	top auto
+	bottom -20px
+	opacity 1
+	background-color: transparent
+	&.left
+	&.right
+		background-image url(../img/icons/slider-arrow.png)
+		background-repeat no-repeat
+		background-position: center
+		background-size contain
+	&.right
+		transform: rotate(180deg)
+	&:hover
+		opacity .8
+.carousel-indicators
+	position static
+	margin 5px auto 0
+	li
+		border-color: #ccccff
+		transition: all .2s ease
+	.active
+		background-color: #ccccff
