@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'GothamProItalic';
-    src: url('fonts/GothamProItalic.eot');
-    src: url('fonts/GothamProItalic.eot') format('embedded-opentype'),
-         url('fonts/GothamProItalic.woff2') format('woff2'),
-         url('fonts/GothamProItalic.woff') format('woff'),
-         url('fonts/GothamProItalic.ttf') format('truetype'),
-         url('fonts/GothamProItalic.svg#GothamProItalic') format('svg');
-}

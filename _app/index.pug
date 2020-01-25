@@ -6,6 +6,12 @@
 -var fav_ico = 'favicon.ico';
 -var fav_png = 'favicon.png';
 
+mixin b(cl,p)
+	.button-wrapper
+		button.button(class=cl data-toggle="modal" data-target="#Modal")=p
+mixin gt(cl,h3)
+	h3.general-title(class=cl)=h3
+
 <!DOCTYPE html>
 html(lang="ru")
 	head
@@ -13,6 +19,18 @@ html(lang="ru")
 		include pug/scripts/head_scripts
 	body
 		include pug/scripts/body_top_scripts
-		include pug/scripts
-		include pug/scripts/chat
+		include pug/main/1.main.pug
+		include pug/main/2.about.pug
+		include pug/main/3.for.pug
+		include pug/main/4.about-line.pug
+		include pug/main/5.plan.pug
+		include pug/main/6.get.pug
+		include pug/main/7.programm.pug
+		include pug/main/8.author.pug
+		include pug/main/9.revs.pug
+		include pug/main/10.footer.pug
+		include pug/main/11.modal.pug
+		include pug/main/12.politics.pug
+		include pug/main/13.scripts.pug
+		//- include pug/scripts/chat
 		include pug/scripts/body_bottom_scripts
