@@ -1,25 +1,47 @@
+#revs
+	padding 25px 0 50px
+.carousel-inner
+	box-shadow: 0px 4px 16.68px 2.32px rgba(9, 78, 162, 0.29);
+#text-revs
+	img.text-rev-img
+		height 312px
+		background-color #fff
+		object-fit: contain
+		background-position: center
+		display block
+		margin 0 auto
 .carousel-control
-	height 40px
-	width 30px
+	height 35px
+	line-height: 35px
+	width 40px
 	top auto
-	bottom -20px
+	bottom 2px
 	opacity 1
 	background-color: transparent
 	&.left
 	&.right
-		background-image url(../img/icons/slider-arrow.png)
-		background-repeat no-repeat
-		background-position: center
-		background-size contain
-	&.right
-		transform: rotate(180deg)
+		font-size: 56px
+		text-shadow: none
+		color #004DA6
+		font-family: GBk
+		text-transform: uppercase
+		background-image: none
+	// &.right
+	// 	transform: rotate(180deg)
 	&:hover
 		opacity .8
 .carousel-indicators
 	position static
-	margin 5px auto 0
+	margin 12px auto 0
 	li
 		border-color: #ccccff
 		transition: all .2s ease
+		width 15px
+		height 15px
+		border-color: #004DA6
+		margin 0 1px
+		transition: all .5s ease
 	.active
-		background-color: #ccccff
+		width 15px
+		height 15px
+		background-color: #004DA6
