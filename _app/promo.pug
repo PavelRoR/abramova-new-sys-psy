@@ -1,4 +1,4 @@
--var head_title = 'Оставьте свои данные, чтоб скачать рабочие тетради для каждого из дней мастер-класса';
+-var head_title = 'Оставьте свои данные, чтоб скачать дополнительные материалы по отношениям и целям';
 -var styles = '../css/promo.min.css';
 -var fav_ico = '../favicon.ico'
 -var fav_png = '../favicon.png'
@@ -13,14 +13,14 @@ html(lang="ru")
 		section#main
 			.container
 				include pug/0.header.pug
-				h1.main-title Оставьте свои данные, чтоб скачать рабочие тетради для каждого из дней мастер-класса. Они помогут вам максимально эффективно работать на уроках
+				h1.main-title Оставьте свои данные, чтоб скачать дополнительные материалы по отношениям и целям. Они помогут вам максимально эффективно работать на уроках. Более подробно разберем на мастер-классе
 				.main-container
 					form(action="https://shop.mastervision.su/?r=personal/newsletter/data/add&id=3568&lg=ru" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" ).form.form-promo
 						.inputrow
 							.inputblock
 								input(type="hidden" value="1" name="required_fields[phone_number]")
 								input(class="input input-mail" name="Contact[phone_number]" type="text" placeholder="Ваш телефон")
-						button(type="submit").button-2.button-form Забрать тетради 
+						button(type="submit").button-2.button-form Забрать доп.материалы 
 							br
 							| и завершить регистрацию
 						.clearfix
@@ -36,7 +36,7 @@ html(lang="ru")
 							input(type="hidden" value="0" name="Contact[id_advertising_channel_page]")#form_newsletter_id_advertising_channel_page
 							input(type="hidden" name="formId" value="276")
 							input(type="hidden" name="formVc" value="138511349")
-				a.button-2.button-bots(href="../bots/") Не нужны тетради, 
+				a.button-2.button-bots(href="../bots/") Не нужны доп.материалы, 
 					br
 					| завершить регистрацию
 		include pug/bonus/3.footer.pug
