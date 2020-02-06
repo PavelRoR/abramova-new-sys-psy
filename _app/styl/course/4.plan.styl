@@ -1,0 +1,63 @@
+#plan
+	padding 50px 0 0
+.day
+	padding 30px
+	box-shadow: 0px 4px 26.68px 2.32px rgba(25,24,21,0.51);
+	margin-bottom: 30px;
+	width 100%
+	max-width 860px
+	float left
+	background-repeat no-repeat
+	background-position: center
+	background-size: cover
+	&-1
+		background-image linear-gradient(to top, rgba(#fff,.9), rgba(#fff,.9)), url('../img/images/get-img-1.jpg')
+	&-2
+		background-image linear-gradient(to top, rgba(#fff,.9), rgba(#fff,.9)), url('../img/images/get-img-2.jpg')
+	&-3
+		background-image linear-gradient(to top, rgba(#fff,.9), rgba(#fff,.9)), url('../img/images/get-img-3.jpg')
+	&-4
+		background-image linear-gradient(to top, rgba(#fff,.9), rgba(#fff,.9)), url('../img/images/get-img-4.jpg')
+	&-5
+		background-image linear-gradient(to top, rgba(#fff,.9), rgba(#fff,.9)), url('../img/images/get-img-5.jpg')
+	&-6
+		background-image linear-gradient(to top, rgba(#fff,.9), rgba(#fff,.9)), url('../img/images/get-img-6.jpg')
+	&-7
+		background-image linear-gradient(to top, rgba(#fff,.9), rgba(#fff,.9)), url('../img/images/day-img-2.jpg')
+	&-8
+		background-image linear-gradient(to top, rgba(#fff,.9), rgba(#fff,.9)), url('../img/images/day-img-3.jpg')
+	&-title
+		margin-bottom: 25px
+		font-size: 25px
+		font-family: GBk
+		text-transform: uppercase
+	&-list
+		border-left: 4px solid #004da6;
+		padding 5px 0
+		li
+			list-style none
+			margin-bottom: 20px;
+			padding-left: 20px;
+			&:last-child
+				margin-bottom: 0
+	&-sublist
+		margin-right: 20px
+		li
+			padding-right: 20px
+			position relative
+			&:before
+				content: '-'
+				position: absolute
+				top -1px
+				right 0
+				font-size: 20px
+				font-family: GBd
+	&:nth-child(2n + 1)
+		float right
+		text-align: right
+		.day-list
+			padding: 0 20px 0 0
+			border-left: 0
+			border-right: 4px solid #004da6;
+.program-container
+	margin-bottom: 40px
