@@ -21,4 +21,12 @@ section#results
 					span Новички смогут начать консультировать и зарабатывать от 50 тысяч рублей в месяц онлайн
 				li
 					span Опытные консультанты смогут масштабировать свою частную практику за счёт авангардных инструментов Новой системной психологии и получат возможность зарабатывать от 150 тысяч рублей в месяц
+		+gt('general-title-results','Образец диплома, который Вы получите по завершению обучения')
+		.diploma
+			.row
+				each n in [1,2,3,4]
+					.col-md-3.col-sm-3.col-xs-6
+						.diploma-example
+							a.diploma-link(href="../img/certs/diploma-"+n+".jpg" data-fancybox="diploma")
+								img(src="../img/certs/diploma-"+n+".min.jpg", alt="Образец диплома").diploma-img
 		+b('','#prices','Записаться')
